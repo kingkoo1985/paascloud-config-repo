@@ -4,17 +4,17 @@ spring:
   rabbitmq:
     host:  paascloud-mq-rabbit
     port: 5672
-    username: '{cipher}AQA7u26JNrD0HwL9I0AVyPHAxVhqMlphW4vjGjhW+V0qoTliek9Pb1xdfbIGhzGtVOPfyFg1x3IU84wgurS9WZycFLu35W36hMC/ZayvWUGXzcSQMJqBw7sGz0hSG3thJyN4/cYRGjhmuF0FaxIqSBCxxSVav/rpVyCLXlQu4Yr3dKmcyTnQBgVMcJ1573mxkOv59ItjiyQM+wZ2rBupKlcjEml30i+xGdNKZVHektuffzIjSSWMwfgd5vSb0eLuW9m55mR0lnFxVhhZobctUWKTtF6RUidJsjexLaioMjPGMS0txpHP57Gq2NVkgbi7HsHK8iTPQg2LJ2C4kFoqKmgzvzrsZEhCb9VyNVJ5+JNoZJYfIGyimxokpBhR/glILbA='
-    password: '{cipher}AQA7u26JNrD0HwL9I0AVyPHAxVhqMlphW4vjGjhW+V0qoTliek9Pb1xdfbIGhzGtVOPfyFg1x3IU84wgurS9WZycFLu35W36hMC/ZayvWUGXzcSQMJqBw7sGz0hSG3thJyN4/cYRGjhmuF0FaxIqSBCxxSVav/rpVyCLXlQu4Yr3dKmcyTnQBgVMcJ1573mxkOv59ItjiyQM+wZ2rBupKlcjEml30i+xGdNKZVHektuffzIjSSWMwfgd5vSb0eLuW9m55mR0lnFxVhhZobctUWKTtF6RUidJsjexLaioMjPGMS0txpHP57Gq2NVkgbi7HsHK8iTPQg2LJ2C4kFoqKmgzvzrsZEhCb9VyNVJ5+JNoZJYfIGyimxokpBhR/glILbA='
+    username: root
+    password: root
   redis:
     host: paascloud-db-redis
-    password: 123456
+    password: root
     port: 6379
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 123456
+    password: root
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
     min-idle: 10
